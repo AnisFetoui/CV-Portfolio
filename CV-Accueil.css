@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+#hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../../html/MonCV_FETOUI_Anis_CSS/img/CV-phot-perso.jpg);
+	background-size: 65%;
+	background-position: center;
+}
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.logo{
+	color: white;
+	font-size: 75px;
+	letter-spacing: 1px;
+}
+
+span{
+	color: #f9004d;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  10px;
+	font-size: 20px;
+}
+
+#content{
+	position:absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+
+h2{
+	color: white;
+	font-size: 50px;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	padding-top: 70px;
+}
+
+h3{
+	color: rgba(48, 40, 48, 0.8);
+	letter-spacing: 2px;
+	font-size: 25  px;
+}
+
+h4{
+	color: rgba(48, 40, 48, 0.8);
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+h5{
+	color: white;
+	font-size: 35px;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+.btn{
+	background-color:transparent;
+	color: white;
+	text-decoration:none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s;
+}
