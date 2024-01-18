@@ -7,7 +7,7 @@
 #hero{		
 	height: 100vh;
 	width: 100%;
-	background-image: url(../../html/MonCV_FETOUI_Anis_CSS/img/CV-phot-perso.jpg);
+	background-image: url(../CV-Portfolio/img/CV-phot-perso.jpg);
 	background-size: 65%;
 	background-position: center;
 }
@@ -43,13 +43,13 @@ nav ul li{
 }
 h1{
 	color: white;
-	margin: 20px 0px 20px;
-	font-size: 75px;
+
+	font-size: 50px;
 }
 h2{
 	color: white;
-	margin: 20px 0px 20px;
-	font-size: 45px;
+	
+	font-size: 35px;
 }
 h5{
 	color: white;
@@ -153,13 +153,12 @@ h5{
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	padding-top:80px;
-	padding-left: 520px;
+	padding-top:200px;
+	padding-left: 800px;
 }
 .footer p:nth-child(1){		
 	font-size: 30px;
 	color: white;
-	margin-bottom: 00px;
 	font-weight: bold;
 }
 .footer p:nth-child(2){			
